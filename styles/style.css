@@ -222,7 +222,8 @@ main{
     background-color: #FFFFFF;
     border-radius: 14px;
     margin-top: 137px;
-    height: 697px;
+    margin-bottom: 93px;
+    /* height: 697px; */
     padding: 71px 150px;
 }
 
@@ -247,3 +248,67 @@ main{
     height: 365px;
 }
 
+/* Let's get in touch style */
+.touch{
+    display: flex;
+    justify-content: space-between;
+    padding: 71px 0px;
+}
+
+.touch-title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 97px;
+    width: 528px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input[type="text"], .form input[type="email"], .form textarea{
+    width: 497px;
+    height: 32px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 2px solid #F2EDED;
+    display: block;
+    margin-bottom: 51px;
+}
+
+.form button{
+    width: 497px;
+    margin: 10px;
+}
+
+/* Footer section style */
+.footer{
+    background-color: #FFFFFF;
+    padding: 104px 455px 103px 454px;
+    text-align: center;
+}
+
+.web-name{
+    color: #4E47FF;
+    font-weight: 850;
+    font-size: 100px;
+    /* margin-bottom: 20px; */
+}
+
+.web-name-title{
+    color: #8987A1;
+}
+
+.hlink{
+    display: flex;
+    gap:48px;
+    list-style: none;
+    justify-content: center;
+    margin-top: 20px;
+}
+.color{
+    color: #8987A1;
+}
+
+.hlink a{
+    text-decoration: none;
+}
