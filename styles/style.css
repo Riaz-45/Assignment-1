@@ -215,3 +215,35 @@ main{
     color: #B3B3B3;
 }
 
+/* focus section style */
+.focus{
+    text-align: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin-top: 137px;
+    height: 697px;
+    padding: 71px 150px;
+}
+
+.focus-title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.focus-sub-title{
+    color: rgba(0, 0, 0, 50%);
+    margin-bottom: 20px;
+}
+
+.focus-btn{
+    margin-bottom: 20px;
+}
+
+.focus-image{
+    border-radius: 48px;
+    height: 365px;
+}
+
