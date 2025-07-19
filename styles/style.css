@@ -88,7 +88,7 @@ main{
 
 .action-container{
     text-align: left;
-    width: 517px;
+    /* width: 517px; */
     margin: auto;
 }
 
@@ -110,5 +110,37 @@ main{
     height: 328px;
     width: 403px;
     border-radius: 48px;
+}
+
+/* productive user style */
+.product-user{
+    padding: 50px 142px;
+    text-align: center;
+    background-color: rgba(78, 71, 255, 10%);
+    border-radius: 20px;
+    margin-bottom: 116px;
+}
+
+.user-title{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+}
+
+.user-data ul{
+    display: flex;
+    gap: 158px;
+    list-style: none;
+}
+
+.data{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.data-sub-title{
+    color: rgba(0, 0, 0, 50%);
+    font-size: 20px;
 }
 
