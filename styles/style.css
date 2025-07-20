@@ -93,7 +93,7 @@ main{
 .action-container{
     text-align: left;
     /* width: 517px; */
-    margin: auto;
+    margin: 0;
 }
 
 .action-title{
@@ -108,6 +108,7 @@ main{
     color: rgba(37, 36, 50, 50%);
     margin-bottom: 23px;
     line-height: 30px;
+    width: 517px;
 }
 
 .action-image{
@@ -258,25 +259,34 @@ main{
 .touch-title{
     color: #000000;
     font-weight: bold;
-    font-size: 97px;
-    width: 528px;
+    font-size: 95px;
+    width: 520px;
     align-items: center;
     justify-content: center;
+    margin-top: 120px;
 }
 
 .form input[type="text"], .form input[type="email"], .form textarea{
     width: 497px;
-    height: 32px;
+    /* height: 32px; */
     padding: 20px 32px;
     border-radius: 10px;
     background-color: #FFFFFF;
     border: 2px solid #F2EDED;
     display: block;
-    margin-bottom: 51px;
+    margin-bottom: 15px;
 }
 
+form{
+    margin-bottom: 19px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
 .form button{
-    width: 497px;
+    width: 555px;
     margin: 10px;
 }
 
@@ -305,6 +315,7 @@ main{
     justify-content: center;
     margin-top: 20px;
 }
+
 .color{
     color: #8987A1;
 }
